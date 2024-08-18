@@ -1,0 +1,38 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+    background-color: cadetblue;
+    
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 10px 60px;
+    border: none;
+    flex: 1;
+    outline: none;
+    background: transparent;
+    padding: 10px 40px;
+    width: 400px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(227, 227, 227, 0.533);
+    padding: 10px 30px;
+}
+
+.nav-search img{
+    margin-right: -10px;
+    align-items: center;
+
+}
